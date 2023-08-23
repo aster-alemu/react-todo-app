@@ -23,7 +23,7 @@ const TodoItem = ({ itemProp, handleChange, delTodo, setUpdate }) => {
       <div className={stylei.content} style={viewMode}>
       <input type='checkbox' checked = {itemProp.completed} onChange={() => handleChange(itemProp.id)} />
       <button onClick={handleEditing}>Edit</button>
-    <button onClick={() => delTodo(itemProp.id)}>Delete</button>
+    <button onClick={() => delTodo(itemProp.id)}>Deletee</button>
     {itemProp.title}
     </div>
     <input
