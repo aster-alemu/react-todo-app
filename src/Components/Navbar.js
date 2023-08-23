@@ -43,7 +43,7 @@ const links = [
       {user && (
         <div className="logout">
           <p>{user}</p>
-          {<button onClick={handleLogout}>Logout</button>}
+          {<button onClick={handleLogout}>Logoutt</button>}
         </div>
       )}
       </>
